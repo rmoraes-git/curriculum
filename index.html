@@ -1,15 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prof. Rodrigo Moraes</title>
+    <title>Currículo – Prof. Rodrigo Moraes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1, h2, h3 {
+            margin-bottom: 5px;
+        }
+
+        .secao {
+            margin-bottom: 30px;
+        }
+
+        .linha {
+            margin: 5px 0;
+        }
+
+        .titulo {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .subtitulo {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
-    <h3>Professor Rodrigo Moraes</h3>
-    <div id="dados iniciais">
-        <h2>Dados:</h2>
-        <h1>e-mail: contato @contato.com </h1>
+
+    <div class="container">
+
+        <h1>Professor Rodrigo Moraes</h1>
+        <div class="secao">
+            <h3 class="subtitulo">Dados de Contato</h3>
+            <div class="linha">📧 E-mail: contato@contato.com</div>
+            <div class="linha">📞 Telefone: (00) 00000-0000</div>
+            <div class="linha">📍 Localização: Cidade / Estado</div>
+        </div>
+
+        <hr>
+
+        <div class="secao">
+            <h3 class="subtitulo">Resumo Profissional</h3>
+            <p>
+                Professor de Desenvolvimento de Software com experiência em Electron.js, 
+                Qlik Sense, QlikView, metodologias ativas e criação de aplicações desktop.
+                Atuação como docente no SENAC e desenvolvimento de soluções práticas
+                para diversos cenários de TI.
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="secao">
+            <h3 class="subtitulo">Experiência Profissional</h3>
+
+            <p class="subtitulo">Professor – SENAC</p>
+            <ul>
+                <li>Ministração de aulas de Desenvolvimento de Software.</li>
+                <li>Foco em Electron.js, JavaScript, testes, APIs e projetos integradores.</li>
+                <li>Aplicação de metodologias de aprendizagem ativa.</li>
+            </ul>
+
+            <p class="subtitulo">Analista / Desenvolvedor</p>
+            <ul>
+                <li>Criação de dashboards e automações em Qlik Sense e QlikView.</li>
+                <li>Desenvolvimento de aplicações e integrações em JavaScript.</li>
+                <li>Manutenção de sistemas internos e consultoria técnica.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="secao">
+            <h3 class="subtitulo">Formação</h3>
+            <ul>
+                <li>Tecnologia da Informação / Análise e Desenvolvimento de Sistemas</li>
+                <li>Outros cursos relevantes na área de desenvolvimento</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="secao">
+            <h3 class="subtitulo">Habilidades</h3>
+            <ul>
+                <li>Electron.js</li>
+                <li>JavaScript / HTML / CSS</li>
+                <li>Qlik Sense, QlikView e NPrinting</li>
+                <li>FastAPI, PostgreSQL</li>
+                <li>Testes (TDD, Jest)</li>
+                <li>Git e GitHub</li>
+            </ul>
+        </div>
+
     </div>
+
 </body>
 </html>
